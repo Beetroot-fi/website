@@ -504,7 +504,7 @@ footer {
 
     /*Как работает*/
     .responsive-image {
-        content: url('../img/mini-logic.svg'); /* Меняем изображение для ширины экрана меньше 768px */
+        content: url('../img/mini-logic.png'); /* Меняем изображение для ширины экрана меньше 768px */
       }
     
     
