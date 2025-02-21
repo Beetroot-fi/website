@@ -102,6 +102,9 @@
                 <img src="./logo_partners/3 Farmix.png" alt="" loading="lazy">
                 <img src="./logo_partners/4 Titan.png" alt="" loading="lazy">
                 <img src="./logo_partners/5 Bagel Finance.png" alt="" loading="lazy">
+                <img src="./logo_partners/6 BeWhale.png" alt="" loading="lazy">
+                <img src="./logo_partners/7 ReBank.fi.png" alt="" loading="lazy">
+                <img src="./logo_partners/8 OliviaAI.png" alt="" loading="lazy">
             </div>
         </div>
     </div>
@@ -179,7 +182,7 @@
                 Have you been audited?
             </summary>
 
-            <p>Not yet, but we will publicly announce once we get audited.
+            <p>Yes, the audit report from Tonbit is available by the following <a href="./audit.html" class="red-link">link.</a>
             </p></details> 
 
         
@@ -217,10 +220,23 @@
                 <p>Developers:</p>
                 <a href="https://github.com/Beetroot-fi" target="_blank">Github</a>
                 <a href="" target="_blank">Documentation</a>
+                <a href="./audit.html" target="_blank">Audit Report</a>
             </div>
         </div>
         
     </footer>
 
+    <script>
+        var path = window.location.pathname;
+        var redirects = {
+            "./terms/": "./terms.html",
+            "./privacy/": "./privacy.html",
+            "./audit/": "./audit.html"
+        };
+    
+        if (redirects[path]) {
+            window.location.href = redirects[path];
+        }
+    </script>
 </body>
 </html>
