@@ -367,10 +367,24 @@
                 <p>Developers:</p>
                 <a href="https://github.com/Beetroot-fi" target="_blank">Github</a>
                 <a href="" target="_blank">Documentation</a>
+                <a href="./audit.html" target="_blank">Audit Report</a>
             </div>
         </div>
         
     </footer>
+
+    <script>
+        var path = window.location.pathname;
+        var redirects = {
+            "./terms/": "./terms.html",
+            "./privacy/": "./privacy.html",
+            "./audit/": "./audit.html"
+        };
+    
+        if (redirects[path]) {
+            window.location.href = redirects[path];
+        }
+    </script>
 
 </body>
 </html>
