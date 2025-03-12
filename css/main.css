@@ -199,7 +199,7 @@ h3  {
 }
 
 .logo img {
-    height: 5vw;
+    height: 3.6vw;
     width: auto;
     padding: 1vw;
     margin-top: 2vw;
@@ -800,4 +800,28 @@ font-size: 24px;
     color: #fb96ae;
     text-decoration: underline;
 
+}
+
+
+  .pdf-container a{
+    color: #ffffff; 
+    background-color: #66091A;   
+    padding: 1vw 8vw;
+    border-radius: 50px;
+    font-size: 36px;
+  }
+
+.pdf-container {
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .pdf-container a{
+        color: #ffffff; 
+        background-color: #66091A;   
+        padding: 3vw 16vw;
+        border-radius: 50px;
+        font-size: 24px;
+    }   
 }
